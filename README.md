@@ -1,6 +1,7 @@
 # Projeto-Vulcfunction
 
 function verificarMotor(velocidadeAtual, aceleracao) {
+
     let velocidadeFinal = velocidadeAtual + aceleracao;
     if (velocidadeFinal > 100) {
         return {
