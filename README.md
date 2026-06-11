@@ -34,8 +34,8 @@ O projeto foi desenvolvido de forma colaborativa utilizando Git, GitHub e autent
 
 ### 4.1 Módulo motor.js
 
-* Recebe a velocidade atual e a aceleração do braço robótico.
-* Calcula a velocidade final.
+* Receber a velocidade atual e através disto analisa a aceleração do braço robótico.
+* Realiza o calculo da velocidade final.
 * Retorna:
 
   * Sistema Seguro
