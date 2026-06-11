@@ -6,13 +6,12 @@
 
 ## Descrição Geral
 
-O Projeto Vulcan foi desenvolvido com o objetivo de simular um sistema de monitoramento para robôs industriais utilizados em ambientes automatizados.
+O Projeto Vulcan foi desenvolvido com o objetivo de simular um sistema de monitoramento e telemetria em tempo real para robôs industriais inseridos em ambientes automatizados de alta performance.
 
-O sistema acompanha informações importantes dos robôs, como velocidade e temperatura, permitindo identificar situações de operação segura e alertar sobre possíveis riscos de sobrecarga ou superaquecimento.
+A plataforma acompanha continuamente variáveis críticas das máquinas, como velocidade de operação e temperatura dos componentes. Isso permite diagnosticar instantaneamente se o robô atua em uma faixa segura, emitindo alertas automáticos e acionando sistemas de resfriamento ao menor sinal de sobrecarga ou superaquecimento.
 
-O projeto foi desenvolvido de forma colaborativa utilizando Git, GitHub e autenticação SSH, simulando um ambiente corporativo real de desenvolvimento de software.
+Conduzido de forma estritamente colaborativa, o projeto utilizou Git e GitHub para o controle de versão e gerenciamento de código, além de autenticação via chaves criptográficas SSH. Esse ecossistema permitiu simular com precisão o fluxo de trabalho, a segurança e a governança de um ambiente corporativo real de desenvolvimento de software.
 
----
 
 ## Tecnologias Utilizadas
 
