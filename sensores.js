@@ -22,9 +22,10 @@ function sensores (numeros) {
 module.exports = sensores
 
 
- //* Codigo com comentários de explicação
+ //* ================ Codigo com comentários de explicação =================
+
+
  //* Função que recebe um array de números (temperaturas/leituras dos sensores), calcula a média aritmética e define se o sistema de resfriamento deve ser ativado.
- 
 function sensores (numeros) {    
     
     // Inicializa as variáveis para armazenar a soma total e a média calculada
