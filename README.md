@@ -1,8 +1,8 @@
 # Projeto Vulcan - SoftFactory
 
-## Equipe
+## 1. Equipe
 
-### Módulo Motor (motor.js)
+### 1.1 Módulo Motor (motor.js)
 
 * Levi
 * Bruno
@@ -10,7 +10,7 @@
 
 Responsáveis pelo desenvolvimento da função de controle do braço robótico, cálculo da velocidade final, definição dos dados de teste do motor e verificação dos estados "Sistema Seguro" e "ALERTA DE SOBRECARGA".
 
-### Módulo Sensores (sensores.js)
+### 1.2 Módulo Sensores (sensores.js)
 
 * Rafael
 * Otávio
@@ -18,11 +18,11 @@ Responsáveis pelo desenvolvimento da função de controle do braço robótico, 
 
 Responsáveis pelo desenvolvimento da função de monitoramento térmico, processamento das leituras de temperatura, cálculo da média térmica e verificação da necessidade de ativação do sistema de resfriamento.
 
-### Integração do Sistema (app.js)
+### 2. Integração do Sistema (app.js)
 
 Desenvolvido de forma colaborativa pela equipe para integrar os módulos do motor e dos sensores, realizar os testes e exibir o painel de telemetria no terminal.
 
-## Descrição do Projeto
+## 3. Descrição do Projeto
 
 O Projeto Vulcan tem como objetivo simular o gerenciamento de uma frota de robôs industriais utilizados em linhas de montagem automatizadas da SoftFactory.
 
@@ -30,9 +30,9 @@ O sistema monitora informações importantes dos robôs, como velocidade e tempe
 
 O projeto foi desenvolvido de forma colaborativa utilizando Git, GitHub e autenticação SSH, simulando um ambiente real de desenvolvimento de software.
 
-## Funcionalidades
+## 4. Funcionalidades
 
-### Módulo motor.js
+### 4.1 Módulo motor.js
 
 * Recebe a velocidade atual e a aceleração do braço robótico.
 * Calcula a velocidade final.
@@ -41,19 +41,19 @@ O projeto foi desenvolvido de forma colaborativa utilizando Git, GitHub e autent
   * Sistema Seguro
   * ALERTA DE SOBRECARGA
 
-### Módulo sensores.js
+### 4.2 Módulo sensores.js
 
 * Recebe um array com 5 leituras de temperatura.
 * Calcula a média térmica utilizando um laço `for`.
 * Informa se é necessário ativar o sistema de resfriamento.
 
-### Módulo app.js
+### 4.3 Módulo app.js
 
 * Importa os módulos utilizando `require()`.
 * Define dados de teste.
 * Exibe um painel de telemetria no terminal.
 
-## Tecnologias Utilizadas
+## 5. Tecnologias Utilizadas
 
 * JavaScript (Node.js)
 * Git
@@ -61,7 +61,7 @@ O projeto foi desenvolvido de forma colaborativa utilizando Git, GitHub e autent
 * SSH
 * Markdown
 
-## Estrutura do Projeto
+## 6. Estrutura do Projeto
 
 projeto-vulcan-softfactory/
 
@@ -70,7 +70,7 @@ projeto-vulcan-softfactory/
 ├── app.js
 └── README.md
 
-## Como Executar
+## 7. Como Executar
 
 ```bash
 git clone https://github.com/SEU-USUARIO/projeto-vulcan-softfactory.git
