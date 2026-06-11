@@ -58,5 +58,5 @@ function sensores (numeros) {
     }
 }
 
-// Exporta a função para que ela possa ser utilizada (importada) em outros arquivos do projeto (padrão CommonJS)
+// Exporta a função para que ela possa ser utilizada (importada) em outros arquivos do projeto
 module.exports = sensores
